@@ -1,0 +1,3 @@
+#helix file picker follows .ignore
+# only follows .gitignore if it has a .git repo inside it
+target/
