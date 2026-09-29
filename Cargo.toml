@@ -1,0 +1,17 @@
+[package]
+name = "HyprAudHelp"
+version = "0.1.0"
+edition = "2024"
+
+
+#update via .. cargo upgrade
+
+[dependencies]
+regex="1" #auto upgdates to highest minor etc that matches major
+console-utils = "1"
+
+#for derive
+serde={ version="1", features=["derive"] }
+serde_json="1" #for actual methods
+
+strum={version="0", features=["derive"]}
